@@ -1,0 +1,48 @@
+Configuration	WrinklesPrototype
+STM32CubeMX 	4.18.0
+Date	01/11/2017
+MCU	STM32F072RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+21	PA5	GPIO_Output	LED1
+22	PA6	GPIO_Output	LED2
+23	PA7	GPIO_Output	LED3
+29	PB10*	USART3_TX	
+30	PB11*	USART3_RX	
+61	PB8	GPIO_Input	CLK0
+62	PB9	GPIO_Input	DATA0
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : WrinklesPrototype
+Project Folder : C:\Users\Alex\Documents\Projects\Wrinkles\Firmware\WrinklesPrototype
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F0 V1.7.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
